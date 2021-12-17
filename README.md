@@ -19,3 +19,12 @@
 
 ### Run
 `npm run start-dev`
+
+
+### If it doesn't run in linux:
+`npm cache clean --force`
+`rm -rf node_modules`
+
+### delete package-lock.json and run everything again
+`npm install`
+`npm run start-dev`
