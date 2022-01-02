@@ -1,5 +1,3 @@
-import { ExecFileSyncOptionsWithBufferEncoding } from "child_process";
-
 type PetType = 'dog' | 'cat' | 'fish';
 
 type Pet = {
@@ -148,6 +146,3 @@ export const Pet = {
         return data.filter(item => (item.name.toLocaleLowerCase().indexOf(name.toLowerCase()) > -1));
     }
 };
-//Filtrar os pets por tipo
-
-//Filtrar os pets pelo nome
